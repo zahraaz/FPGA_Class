@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Nov 02 08:58:47 2022
+
+drc -z TOP_MODULE.ncd TOP_MODULE.pcf
+
+DRC detected 0 errors and 0 warnings.

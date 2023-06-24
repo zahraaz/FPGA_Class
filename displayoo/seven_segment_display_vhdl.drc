@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Nov 29 13:50:40 2022
+
+drc -z seven_segment_display_VHDL.ncd seven_segment_display_VHDL.pcf
+
+DRC detected 0 errors and 0 warnings.

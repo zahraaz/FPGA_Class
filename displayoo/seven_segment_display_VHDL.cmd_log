@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/displayoo/seven_segment_display_VHDL.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/displayoo/seven_segment_display_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/displayoo/seven_segment_display_VHDL.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/displayoo/seven_segment_display_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/displayoo/seven_segment_display_VHDL.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/displayoo/seven_segment_display_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/displayoo/seven_segment_display_VHDL.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/displayoo/seven_segment_display_VHDL.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim seven_segment_display_VHDL.ngc seven_segment_display_VHDL_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 seven_segment_display_VHDL.ngc seven_segment_display_VHDL.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o seven_segment_display_VHDL_map.ncd seven_segment_display_VHDL.ngd seven_segment_display_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off seven_segment_display_VHDL_map.ncd seven_segment_display_VHDL.ncd seven_segment_display_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml seven_segment_display_VHDL.twx seven_segment_display_VHDL.ncd -o seven_segment_display_VHDL.twr seven_segment_display_VHDL.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Zahraa/Downloads/test.ucf -p xc7a100t-csg324-3 seven_segment_display_VHDL.ngc seven_segment_display_VHDL.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o seven_segment_display_VHDL_map.ncd seven_segment_display_VHDL.ngd seven_segment_display_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off seven_segment_display_VHDL_map.ncd seven_segment_display_VHDL.ncd seven_segment_display_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml seven_segment_display_VHDL.twx seven_segment_display_VHDL.ncd -o seven_segment_display_VHDL.twr seven_segment_display_VHDL.pcf 
+bitgen -intstyle ise -f seven_segment_display_VHDL.ut seven_segment_display_VHDL.ncd 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/displayoo/seven_segment_display_VHDL.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/displayoo/seven_segment_display_VHDL.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim seven_segment_display_VHDL.ngc seven_segment_display_VHDL_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Zahraa/Downloads/test.ucf -p xc7a100t-csg324-3 seven_segment_display_VHDL.ngc seven_segment_display_VHDL.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o seven_segment_display_VHDL_map.ncd seven_segment_display_VHDL.ngd seven_segment_display_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off seven_segment_display_VHDL_map.ncd seven_segment_display_VHDL.ncd seven_segment_display_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml seven_segment_display_VHDL.twx seven_segment_display_VHDL.ncd -o seven_segment_display_VHDL.twr seven_segment_display_VHDL.pcf 
+bitgen -intstyle ise -f seven_segment_display_VHDL.ut seven_segment_display_VHDL.ncd 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/displayoo/seven_segment_display_VHDL.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/displayoo/seven_segment_display_VHDL.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim seven_segment_display_VHDL.ngc seven_segment_display_VHDL_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Zahraa/Downloads/test.ucf -p xc7a100t-csg324-3 seven_segment_display_VHDL.ngc seven_segment_display_VHDL.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o seven_segment_display_VHDL_map.ncd seven_segment_display_VHDL.ngd seven_segment_display_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off seven_segment_display_VHDL_map.ncd seven_segment_display_VHDL.ncd seven_segment_display_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml seven_segment_display_VHDL.twx seven_segment_display_VHDL.ncd -o seven_segment_display_VHDL.twr seven_segment_display_VHDL.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Zahraa/Downloads/test.ucf -p xc7a100t-csg324-3 seven_segment_display_VHDL.ngc seven_segment_display_VHDL.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o seven_segment_display_VHDL_map.ncd seven_segment_display_VHDL.ngd seven_segment_display_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off seven_segment_display_VHDL_map.ncd seven_segment_display_VHDL.ncd seven_segment_display_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml seven_segment_display_VHDL.twx seven_segment_display_VHDL.ncd -o seven_segment_display_VHDL.twr seven_segment_display_VHDL.pcf 
+bitgen -intstyle ise -f seven_segment_display_VHDL.ut seven_segment_display_VHDL.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Zahraa/Downloads/test.ucf -p xc7a100t-csg324-3 seven_segment_display_VHDL.ngc seven_segment_display_VHDL.ngd  

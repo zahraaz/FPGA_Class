@@ -1,0 +1,4 @@
+vhdl work "seg_display.vhd"
+vhdl work "FSM_counter.vhd"
+vhdl work "clk_div.vhd"
+vhdl work "UP_down_counter.vhd"

@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Nov 28 13:03:37 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "stop" LOCATE = SITE "P18" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "digit1<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "digit1<1>" LOCATE = SITE "R10" LEVEL 1;
+COMP "digit1<2>" LOCATE = SITE "K16" LEVEL 1;
+COMP "digit1<3>" LOCATE = SITE "K13" LEVEL 1;
+COMP "digit2<0>" LOCATE = SITE "J17" LEVEL 1;
+COMP "digit1<4>" LOCATE = SITE "P15" LEVEL 1;
+COMP "digit2<1>" LOCATE = SITE "J18" LEVEL 1;
+COMP "digit1<5>" LOCATE = SITE "T11" LEVEL 1;
+COMP "digit2<2>" LOCATE = SITE "T9" LEVEL 1;
+COMP "digit2<3>" LOCATE = SITE "J14" LEVEL 1;
+COMP "floor<0>" LOCATE = SITE "H17" LEVEL 1;
+COMP "digit2<4>" LOCATE = SITE "P14" LEVEL 1;
+COMP "up_down" LOCATE = SITE "M18" LEVEL 1;
+COMP "floor<1>" LOCATE = SITE "K15" LEVEL 1;
+COMP "digit2<5>" LOCATE = SITE "T14" LEVEL 1;
+COMP "floor<2>" LOCATE = SITE "J13" LEVEL 1;
+COMP "floor<3>" LOCATE = SITE "N14" LEVEL 1;
+COMP "reset" LOCATE = SITE "N17" LEVEL 1;
+SCHEMATIC END;
+

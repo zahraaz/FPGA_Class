@@ -1,0 +1,23 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Zahraa/Documents/FPGA/secondExp/TTTT_isim_beh.exe -prj C:/Users/Zahraa/Documents/FPGA/secondExp/TTTT_beh.prj work.TTTT 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Zahraa/Documents/FPGA/secondExp/Reg_file.vhd" into library work
+Parsing VHDL file "C:/Users/Zahraa/Documents/FPGA/secondExp/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Zahraa/Documents/FPGA/secondExp/TOP_MODULE.vhd" into library work
+Parsing VHDL file "C:/Users/Zahraa/Documents/FPGA/secondExp/TTTT.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 161440 KB
+Fuse CPU Usage: 108 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity Reg_file [reg_file_default]
+Compiling architecture behavioral of entity TOP_MODULE [top_module_default]
+Compiling architecture behavior of entity tttt
+Time Resolution for simulation is 1ps.
+ERROR:Simulator:861 - Failed to link the design

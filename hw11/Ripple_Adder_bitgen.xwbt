@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Zahraa\Documents\FPGA\hw11\Ripple_Adder.ncd
+OUTFILE=C:\Users\Zahraa\Documents\FPGA\hw11\Ripple_Adder.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\Users\Zahraa\Documents\FPGA\hw11
+LICENSE=WebPack
+USER_INFO=__0_0_0

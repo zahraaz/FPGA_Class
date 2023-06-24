@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Nov 30 09:02:17 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clock_100Mhz" LOCATE = SITE "E3" LEVEL 1;
+COMP "crt" LOCATE = SITE "P18" LEVEL 1;
+COMP "LED_out<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "LED_out<1>" LOCATE = SITE "R10" LEVEL 1;
+COMP "LED_out<2>" LOCATE = SITE "K16" LEVEL 1;
+COMP "LED_out<3>" LOCATE = SITE "K13" LEVEL 1;
+COMP "LED_out<4>" LOCATE = SITE "P15" LEVEL 1;
+COMP "LED_out<5>" LOCATE = SITE "T11" LEVEL 1;
+COMP "LED_out<6>" LOCATE = SITE "L18" LEVEL 1;
+COMP "Anode_Activate<0>" LOCATE = SITE "J17" LEVEL 1;
+COMP "Anode_Activate<1>" LOCATE = SITE "J18" LEVEL 1;
+COMP "reset" LOCATE = SITE "N17" LEVEL 1;
+COMP "Anode_Activate<2>" LOCATE = SITE "T9" LEVEL 1;
+COMP "Anode_Activate<3>" LOCATE = SITE "J14" LEVEL 1;
+SCHEMATIC END;
+

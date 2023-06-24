@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\Zahraa\Documents\FPGA\secondExp\impact.xsl
+OUTFILE=C:\Users\Zahraa\Documents\FPGA\secondExp\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=C:\Users\Zahraa\Documents\FPGA\secondExp
+LICENSE=iMPACT
+USER_INFO=iMPACT

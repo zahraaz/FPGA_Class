@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\Users\Zahraa\Documents\FPGA\displayoo\seven_disp.vhd" Line 77: <arg fmt="%s" index="1">displayed_number</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\Users\Zahraa\Documents\FPGA\displayoo\seven_disp.vhd" Line 82: <arg fmt="%s" index="1">displayed_number</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\Users\Zahraa\Documents\FPGA\displayoo\seven_disp.vhd" Line 87: <arg fmt="%s" index="1">displayed_number</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\Users\Zahraa\Documents\FPGA\displayoo\seven_disp.vhd" Line 92: <arg fmt="%s" index="1">displayed_number</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\Zahraa\Documents\FPGA\displayoo\seven_disp.vhd" Line 112: Assignment to <arg fmt="%s" index="1">one_second_enable</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\Zahraa\Documents\FPGA\displayoo\seven_disp.vhd" Line 20: Net &lt;<arg fmt="%s" index="1">displayed_number[15]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">displayed_number</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Anode_Activate</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">pr_state_FSM_FFd4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seven_segment_display_VHDL</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;refresh_counter_0&gt; </arg>
+</msg>
+
+</messages>
+

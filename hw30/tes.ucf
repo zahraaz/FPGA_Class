@@ -1,0 +1,93 @@
+#*********************************************************************************************
+#* This file is a general User Constraints File (.UCF) for the Xilinx Nexys4 FPGA DDR Board  *  
+#* Created by Faris S. Alghareb, PhD                                                         *  
+#*                                                                                           *   
+#* To use it in a project:                                                                   *  
+#* (1) remove or comment the lines corresponding to unused pins                              * 
+#* (2) rename the used signals according to the project                                      *
+#*********************************************************************************************
+
+#*********************************************************************************************
+#* PlanAhead Generated (physical constraints) | (IO constraints)                             *
+#*********************************************************************************************
+
+#---------------------------------------------
+## clock pin 
+#---------------------------------------------
+#INST "clk_BUFGP" LOC = E3;
+NET "CLK" LOC = E3 | IOSTANDARD = LVCMOS33;
+#---------------------------------------------
+
+#---------------------------------------------
+## 7-segment-display  Digit Display (Cathode) 
+#---------------------------------------------
+## All cathodes are driven low when active
+NET "SEGMENT<0>"   LOC = T10 | IOSTANDARD = LVCMOS33;   # Sch name = CA      
+NET "SEGMENT<1>"   LOC = R10 | IOSTANDARD = LVCMOS33;   # Sch name = CB
+NET "SEGMENT<2>"   LOC = K16 | IOSTANDARD = LVCMOS33;   # Sch name = CC
+NET "SEGMENT<3>"   LOC = K13 | IOSTANDARD = LVCMOS33;   # Sch name = CD
+NET "SEGMENT<4>"   LOC = P15 | IOSTANDARD = LVCMOS33;   # Sch name = CE
+NET "SEGMENT<5>"   LOC = T11 | IOSTANDARD = LVCMOS33;   # Sch name = CF
+NET "SEGMENT<6>"   LOC = L18 | IOSTANDARD = LVCMOS33;   # Sch name = CG
+NET "dp"   LOC = H15         | IOSTANDARD = LVCMOS33;   # Sch name = DP
+
+## 7-segment-display  Anode-Enable (time-multiplexed)
+## all anodes are driven low (inverted high) when active
+NET "AN<0>"   LOC = J17 | IOSTANDARD = LVCMOS33;        # Sch name = AN0     
+NET "AN<1>"   LOC = J18 | IOSTANDARD = LVCMOS33;        # Sch name = AN1
+NET "AN<2>"   LOC = T9  | IOSTANDARD = LVCMOS33;        # Sch name = AN2
+NET "AN<3>"   LOC = J14 | IOSTANDARD = LVCMOS33;        # Sch name = AN3
+#NET "AN<4>"   LOC = P14 | IOSTANDARD = LVCMOS33;        # Sch name = AN4
+#NET "AN<5>"   LOC = T14 | IOSTANDARD = LVCMOS33;        # Sch name = AN5
+#NET "AN<6>"   LOC = K2  | IOSTANDARD = LVCMOS33;        # Sch name = AN6
+#NET "AN<7>"   LOC = U13 | IOSTANDARD = LVCMOS33;        # Sch name = AN7
+#----------------------------------------------------#----------------------------------------------------
+## LEDs
+#----------------------------------------------------                                                                                                                       
+# NET "Led<0>"     LOC = "H17" | IOSTANDARD = LVCMOS33;   # Sch name = LD0
+# NET "Led<1>"     LOC = "K15" | IOSTANDARD = LVCMOS33;   # Sch name = LD1
+# NET "Led<2>"     LOC = "J13" | IOSTANDARD = LVCMOS33;   # Sch name = LD2
+# NET "Led<3>"     LOC = "N14" | IOSTANDARD = LVCMOS33;   # Sch name = LD3
+# NET "Led<4>"     LOC = "R18" | IOSTANDARD = LVCMOS33;   # Sch name = LD4
+# NET "Led<5>"     LOC = "V17" | IOSTANDARD = LVCMOS33;   # Sch name = LD5
+# NET "Led<6>"     LOC = "U17" | IOSTANDARD = LVCMOS33;   # Sch name = LD6
+# NET "Led<7>"     LOC = "U16" | IOSTANDARD = LVCMOS33;   # Sch name = LD7
+# NET "Led<8>"     LOC = "V16" | IOSTANDARD = LVCMOS33;   # Sch name = LD8
+# NET "Led<9>"     LOC = "T15" | IOSTANDARD = LVCMOS33;   # Sch name = LD9
+# NET "Led<10>"    LOC = "U14" | IOSTANDARD = LVCMOS33;   # Sch name = LD10
+# NET "Led<11>"    LOC = "T16" | IOSTANDARD = LVCMOS33;   # Sch name = LD11
+# NET "Led<12>"    LOC = "V15" | IOSTANDARD = LVCMOS33;   # Sch name = LD12
+# NET "Led<13>"    LOC = "V14" | IOSTANDARD = LVCMOS33;   # Sch name = LD13
+# NET "Led<14>"    LOC = "V12" | IOSTANDARD = LVCMOS33;   # Sch name = LD14
+# NET "Led<15>"    LOC = "V11" | IOSTANDARD = LVCMOS33;   # Sch name = LD15
+#----------------------------------------------------
+
+#----------------------------------------------------
+## Switches 
+#----------------------------------------------------                                                                                                                                                                                                                                              
+NET "CRT"      LOC = "J15" | IOSTANDARD = LVCMOS33;   # Sch name = SW0
+# NET "sw<1>"      LOC = "L16" | IOSTANDARD = LVCMOS33;   # Sch name = SW1
+# NET "sw<2>"      LOC = "M13" | IOSTANDARD = LVCMOS33;   # Sch name = SW2
+# NET "sw<3>"      LOC = "R15" | IOSTANDARD = LVCMOS33;   # Sch name = SW3
+# NET "sw<4>"      LOC = "R17" | IOSTANDARD = LVCMOS33;   # Sch name = SW4
+# NET "sw<5>"      LOC = "T18" | IOSTANDARD = LVCMOS33;   # Sch name = SW5
+# NET "sw<6>"      LOC = "U18" | IOSTANDARD = LVCMOS33;   # Sch name = SW6
+# NET "sw<7>"      LOC = "R13" | IOSTANDARD = LVCMOS33;   # Sch name = SW7
+# NET "sw<8>"      LOC = "T8"  | IOSTANDARD = LVCMOS33;   # Sch name = SW8
+# NET "sw<9>"      LOC = "U8"  | IOSTANDARD = LVCMOS33;   # Sch name = SW9
+# NET "sw<10>"     LOC = "R16" | IOSTANDARD = LVCMOS33;   # Sch name = SW10
+# NET "sw<11>"     LOC = "T13" | IOSTANDARD = LVCMOS33;   # Sch name = SW11
+# NET "sw<12>"     LOC = "H6"  | IOSTANDARD = LVCMOS33;   # Sch name = SW12
+# NET "sw<13>"     LOC = "U12" | IOSTANDARD = LVCMOS33;   # Sch name = SW13
+# NET "sw<14>"     LOC = "U11" | IOSTANDARD = LVCMOS33;   # Sch name = SW14
+# NET "sw<15>"     LOC = "V10" | IOSTANDARD = LVCMOS33;   # Sch name = SW15
+                                                                                                                       
+#----------------------------------------------------
+## Buttons 
+#----------------------------------------------------                                                                                                                             
+# NET "BTNL"    LOC = "P17" | IOSTANDARD = LVCMOS33;      # Sch name = BTNL
+# NET "BTNR"    LOC = "M17" | IOSTANDARD = LVCMOS33;      # Sch name = BTNR
+# NET "BTNU"    LOC = "M18" | IOSTANDARD = LVCMOS33;      # Sch name = BTNU
+# NET "BTND"    LOC = "P18" | IOSTANDARD = LVCMOS33;      # Sch name = BTND
+NET "RST"    LOC = "N17" | IOSTANDARD = LVCMOS33;      # Sch name = BTNC
+#----------------------------------------------------

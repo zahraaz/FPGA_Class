@@ -1,0 +1,59 @@
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim UP_down_counter.ngc UP_down_counter_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tes.ucf -p xc7a100t-csg324-3 UP_down_counter.ngc UP_down_counter.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o UP_down_counter_map.ncd UP_down_counter.ngd UP_down_counter.pcf 
+par -w -intstyle ise -ol high -mt off UP_down_counter_map.ncd UP_down_counter.ncd UP_down_counter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP_down_counter.twx UP_down_counter.ncd -o UP_down_counter.twr UP_down_counter.pcf -ucf tes.ucf 
+bitgen -intstyle ise -f UP_down_counter.ut UP_down_counter.ncd 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim UP_down_counter.ngc UP_down_counter_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tes.ucf -p xc7a100t-csg324-3 UP_down_counter.ngc UP_down_counter.ngd  
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim UP_down_counter.ngc UP_down_counter_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tes.ucf -p xc7a100t-csg324-3 UP_down_counter.ngc UP_down_counter.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tes.ucf -p xc7a100t-csg324-3 UP_down_counter.ngc UP_down_counter.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o UP_down_counter_map.ncd UP_down_counter.ngd UP_down_counter.pcf 
+par -w -intstyle ise -ol high -mt off UP_down_counter_map.ncd UP_down_counter.ncd UP_down_counter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP_down_counter.twx UP_down_counter.ncd -o UP_down_counter.twr UP_down_counter.pcf -ucf tes.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tes.ucf -p xc7a100t-csg324-3 UP_down_counter.ngc UP_down_counter.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o UP_down_counter_map.ncd UP_down_counter.ngd UP_down_counter.pcf 
+par -w -intstyle ise -ol high -mt off UP_down_counter_map.ncd UP_down_counter.ncd UP_down_counter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP_down_counter.twx UP_down_counter.ncd -o UP_down_counter.twr UP_down_counter.pcf -ucf tes.ucf 
+bitgen -intstyle ise -f UP_down_counter.ut UP_down_counter.ncd 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tes.ucf -p xc7a100t-csg324-3 UP_down_counter.ngc UP_down_counter.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o UP_down_counter_map.ncd UP_down_counter.ngd UP_down_counter.pcf 
+par -w -intstyle ise -ol high -mt off UP_down_counter_map.ncd UP_down_counter.ncd UP_down_counter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP_down_counter.twx UP_down_counter.ncd -o UP_down_counter.twr UP_down_counter.pcf -ucf tes.ucf 
+bitgen -intstyle ise -f UP_down_counter.ut UP_down_counter.ncd 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim UP_down_counter.ngc UP_down_counter_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/hw30/UP_down_counter.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim UP_down_counter.ngc UP_down_counter_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tes.ucf -p xc7a100t-csg324-3 UP_down_counter.ngc UP_down_counter.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o UP_down_counter_map.ncd UP_down_counter.ngd UP_down_counter.pcf 
+par -w -intstyle ise -ol high -mt off UP_down_counter_map.ncd UP_down_counter.ncd UP_down_counter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UP_down_counter.twx UP_down_counter.ncd -o UP_down_counter.twr UP_down_counter.pcf -ucf tes.ucf 
+bitgen -intstyle ise -f UP_down_counter.ut UP_down_counter.ncd 

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="thiedExp.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FSM_counter.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="FSM_counter.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="FSM_counter.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="UP_down_counter.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="UP_down_counter.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="UP_down_counter.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="UP_down_counter.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="UP_down_counter.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="UP_down_counter.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="UP_down_counter.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="UP_down_counter.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="UP_down_counter.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="UP_down_counter.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="UP_down_counter.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="UP_down_counter.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="UP_down_counter.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="UP_down_counter.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="UP_down_counter.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="UP_down_counter.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="UP_down_counter.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="UP_down_counter.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="UP_down_counter.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="UP_down_counter.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="UP_down_counter_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="UP_down_counter_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="UP_down_counter_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="UP_down_counter_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="UP_down_counter_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="UP_down_counter_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="UP_down_counter_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="UP_down_counter_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="UP_down_counter_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="UP_down_counter_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="UP_down_counter_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="UP_down_counter_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="UP_down_counter_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="UP_down_counter_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="UP_down_counter_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_div.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="clk_div.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="clk_div.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seg_display.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="seg_display.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="seg_display.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="up_down_counter.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="up_down_counter.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="up_down_counter.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1668582216" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6576182008678237990" xil_pn:start_ts="1668582216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668582216" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="556079186256128910" xil_pn:start_ts="1668582216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668582216" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1668582216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668582216" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1124297442281776312" xil_pn:start_ts="1668582216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668582216" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1668582216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668582216" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-7941613012394247144" xil_pn:start_ts="1668582216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1669788895" xil_pn:in_ck="-6057822427645252048" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-3156557644949369525" xil_pn:start_ts="1669788891">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="UP_down_counter.lso"/>
+      <outfile xil_pn:name="UP_down_counter.ngc"/>
+      <outfile xil_pn:name="UP_down_counter.ngr"/>
+      <outfile xil_pn:name="UP_down_counter.prj"/>
+      <outfile xil_pn:name="UP_down_counter.syr"/>
+      <outfile xil_pn:name="UP_down_counter.xst"/>
+      <outfile xil_pn:name="UP_down_counter_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1668582221" xil_pn:in_ck="7135842664165346617" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-5034845327353298957" xil_pn:start_ts="1668582221">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1668583262" xil_pn:in_ck="2407361604432649402" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3510083554313422399" xil_pn:start_ts="1668583258">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="UP_down_counter.bld"/>
+      <outfile xil_pn:name="UP_down_counter.ngd"/>
+      <outfile xil_pn:name="UP_down_counter_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1668583276" xil_pn:in_ck="2407361604432649403" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1668583262">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="UP_down_counter.pcf"/>
+      <outfile xil_pn:name="UP_down_counter_map.map"/>
+      <outfile xil_pn:name="UP_down_counter_map.mrp"/>
+      <outfile xil_pn:name="UP_down_counter_map.ncd"/>
+      <outfile xil_pn:name="UP_down_counter_map.ngm"/>
+      <outfile xil_pn:name="UP_down_counter_map.xrpt"/>
+      <outfile xil_pn:name="UP_down_counter_summary.xml"/>
+      <outfile xil_pn:name="UP_down_counter_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1668583295" xil_pn:in_ck="-6558763347368865452" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1668583276">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="UP_down_counter.ncd"/>
+      <outfile xil_pn:name="UP_down_counter.pad"/>
+      <outfile xil_pn:name="UP_down_counter.par"/>
+      <outfile xil_pn:name="UP_down_counter.ptwx"/>
+      <outfile xil_pn:name="UP_down_counter.unroutes"/>
+      <outfile xil_pn:name="UP_down_counter.xpi"/>
+      <outfile xil_pn:name="UP_down_counter_pad.csv"/>
+      <outfile xil_pn:name="UP_down_counter_pad.txt"/>
+      <outfile xil_pn:name="UP_down_counter_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1668583313" xil_pn:in_ck="-1790844175608702050" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="306664139534459597" xil_pn:start_ts="1668583298">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="UP_down_counter.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="up_down_counter.bgn"/>
+      <outfile xil_pn:name="up_down_counter.bit"/>
+      <outfile xil_pn:name="up_down_counter.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1668583340" xil_pn:in_ck="8049694131168277928" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="4674625285961985627" xil_pn:start_ts="1668583340">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1668583295" xil_pn:in_ck="2407361604432649271" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1668583287">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="UP_down_counter.twr"/>
+      <outfile xil_pn:name="UP_down_counter.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

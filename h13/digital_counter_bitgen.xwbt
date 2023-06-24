@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Zahraa\Documents\FPGA\h13\digital_counter.ncd
+OUTFILE=C:\Users\Zahraa\Documents\FPGA\h13\digital_counter.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\Users\Zahraa\Documents\FPGA\h13
+LICENSE=WebPack
+USER_INFO=__0_0_0

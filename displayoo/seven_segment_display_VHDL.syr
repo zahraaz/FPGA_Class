@@ -1,0 +1,449 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: seven_segment_display_VHDL.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "seven_segment_display_VHDL.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "seven_segment_display_VHDL"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : seven_segment_display_VHDL
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Zahraa\Documents\FPGA\displayoo\seven_disp.vhd" into library work
+Parsing entity <seven_segment_display_VHDL>.
+Parsing architecture <Behavioral> of entity <seven_segment_display_vhdl>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <seven_segment_display_VHDL> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:\Users\Zahraa\Documents\FPGA\displayoo\seven_disp.vhd" Line 77: displayed_number should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Zahraa\Documents\FPGA\displayoo\seven_disp.vhd" Line 82: displayed_number should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Zahraa\Documents\FPGA\displayoo\seven_disp.vhd" Line 87: displayed_number should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Zahraa\Documents\FPGA\displayoo\seven_disp.vhd" Line 92: displayed_number should be on the sensitivity list of the process
+WARNING:HDLCompiler:1127 - "C:\Users\Zahraa\Documents\FPGA\displayoo\seven_disp.vhd" Line 112: Assignment to one_second_enable ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "C:\Users\Zahraa\Documents\FPGA\displayoo\seven_disp.vhd" Line 20: Net <displayed_number[15]> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <seven_segment_display_VHDL>.
+    Related source file is "C:\Users\Zahraa\Documents\FPGA\displayoo\seven_disp.vhd".
+WARNING:Xst:653 - Signal <displayed_number> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 4-bit register for signal <pr_state>.
+    Found 20-bit register for signal <refresh_counter>.
+    Found finite state machine <FSM_0> for signal <pr_state>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 20                                             |
+    | Inputs             | 1                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clock_100Mhz (rising_edge)                     |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | zero                                           |
+    | Power Up State     | zero                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 20-bit adder for signal <refresh_counter[19]_GND_5_o_add_1_OUT> created at line 64.
+    Found 4x4-bit Read Only RAM for signal <Anode_Activate>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <seven_segment_display_VHDL> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x4-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 1
+ 20-bit adder                                          : 1
+# Registers                                            : 1
+ 20-bit register                                       : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <seven_segment_display_VHDL>.
+The following registers are absorbed into counter <refresh_counter>: 1 register on signal <refresh_counter>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Anode_Activate> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <refresh_counter> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <Anode_Activate> |          |
+    -----------------------------------------------------------------------
+Unit <seven_segment_display_VHDL> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x4-bit single-port distributed Read Only RAM         : 1
+# Counters                                             : 1
+ 20-bit up counter                                     : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <pr_state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 0000
+ one   | 0001
+ two   | 0010
+ three | 0011
+ four  | 0100
+ five  | 0101
+ six   | 0110
+ seven | 0111
+ eight | 1000
+ nine  | 1001
+-------------------
+
+Optimizing unit <seven_segment_display_VHDL> ...
+INFO:Xst:2261 - The FF/Latch <pr_state_FSM_FFd4> in Unit <seven_segment_display_VHDL> is equivalent to the following FF/Latch, which will be removed : <refresh_counter_0> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block seven_segment_display_VHDL, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 23
+ Flip-Flops                                            : 23
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : seven_segment_display_VHDL.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 67
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 19
+#      LUT2                        : 4
+#      LUT5                        : 3
+#      MUXCY                       : 19
+#      VCC                         : 1
+#      XORCY                       : 19
+# FlipFlops/Latches                : 23
+#      FDC                         : 23
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      IBUF                        : 2
+#      OBUF                        : 15
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              23  out of  126800     0%  
+ Number of Slice LUTs:                   27  out of  63400     0%  
+    Number used as Logic:                27  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     27
+   Number with an unused Flip Flop:       4  out of     27    14%  
+   Number with an unused LUT:             0  out of     27     0%  
+   Number of fully used LUT-FF pairs:    23  out of     27    85%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    210     8%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock_100Mhz                       | BUFGP                  | 23    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 1.917ns (Maximum Frequency: 521.594MHz)
+   Minimum input arrival time before clock: 0.727ns
+   Maximum output required time after clock: 1.135ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock_100Mhz'
+  Clock period: 1.917ns (frequency: 521.594MHz)
+  Total number of paths / destination ports: 222 / 23
+-------------------------------------------------------------------------
+Delay:               1.917ns (Levels of Logic = 21)
+  Source:            pr_state_FSM_FFd4 (FF)
+  Destination:       refresh_counter_19 (FF)
+  Source Clock:      clock_100Mhz rising
+  Destination Clock: clock_100Mhz rising
+
+  Data Path: pr_state_FSM_FFd4 to refresh_counter_19
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.361   0.298  pr_state_FSM_FFd4 (pr_state_FSM_FFd4)
+     INV:I->O              2   0.113   0.000  Mcount_refresh_counter_lut<0>_INV_0 (Mcount_refresh_counter_lut<0>)
+     MUXCY:S->O            1   0.353   0.000  Mcount_refresh_counter_cy<0> (Mcount_refresh_counter_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<1> (Mcount_refresh_counter_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<2> (Mcount_refresh_counter_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<3> (Mcount_refresh_counter_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<4> (Mcount_refresh_counter_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<5> (Mcount_refresh_counter_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<6> (Mcount_refresh_counter_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<7> (Mcount_refresh_counter_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<8> (Mcount_refresh_counter_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<9> (Mcount_refresh_counter_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<10> (Mcount_refresh_counter_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<11> (Mcount_refresh_counter_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<12> (Mcount_refresh_counter_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<13> (Mcount_refresh_counter_cy<13>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<14> (Mcount_refresh_counter_cy<14>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<15> (Mcount_refresh_counter_cy<15>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<16> (Mcount_refresh_counter_cy<16>)
+     MUXCY:CI->O           1   0.023   0.000  Mcount_refresh_counter_cy<17> (Mcount_refresh_counter_cy<17>)
+     MUXCY:CI->O           0   0.023   0.000  Mcount_refresh_counter_cy<18> (Mcount_refresh_counter_cy<18>)
+     XORCY:CI->O           1   0.370   0.000  Mcount_refresh_counter_xor<19> (Result<19>)
+     FDC:D                     0.008          refresh_counter_19
+    ----------------------------------------
+    Total                      1.917ns (1.619ns logic, 0.298ns route)
+                                       (84.4% logic, 15.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock_100Mhz'
+  Total number of paths / destination ports: 26 / 26
+-------------------------------------------------------------------------
+Offset:              0.727ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       pr_state_FSM_FFd4 (FF)
+  Destination Clock: clock_100Mhz rising
+
+  Data Path: reset to pr_state_FSM_FFd4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            23   0.001   0.377  reset_IBUF (reset_IBUF)
+     FDC:CLR                   0.349          pr_state_FSM_FFd4
+    ----------------------------------------
+    Total                      0.727ns (0.350ns logic, 0.377ns route)
+                                       (48.1% logic, 51.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock_100Mhz'
+  Total number of paths / destination ports: 12 / 8
+-------------------------------------------------------------------------
+Offset:              1.135ns (Levels of Logic = 2)
+  Source:            refresh_counter_19 (FF)
+  Destination:       Anode_Activate<3> (PAD)
+  Source Clock:      clock_100Mhz rising
+
+  Data Path: refresh_counter_19 to Anode_Activate<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.361   0.398  refresh_counter_19 (refresh_counter_19)
+     LUT2:I0->O            1   0.097   0.279  Mram_Anode_Activate111 (Anode_Activate_1_OBUF)
+     OBUF:I->O                 0.000          Anode_Activate_1_OBUF (Anode_Activate<1>)
+    ----------------------------------------
+    Total                      1.135ns (0.458ns logic, 0.677ns route)
+                                       (40.3% logic, 59.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clock_100Mhz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock_100Mhz   |    1.917|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.87 secs
+ 
+--> 
+
+Total memory usage is 346720 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

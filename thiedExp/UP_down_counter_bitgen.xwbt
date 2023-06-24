@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Zahraa\Documents\FPGA\thiedExp\UP_down_counter.ncd
+OUTFILE=C:\Users\Zahraa\Documents\FPGA\thiedExp\UP_down_counter.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\Users\Zahraa\Documents\FPGA\thiedExp
+LICENSE=WebPack
+USER_INFO=__0_0_0

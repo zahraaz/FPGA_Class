@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/h13/digital_counter.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/h13/digital_counter.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim digital_counter.ngc digital_counter_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 digital_counter.ngc digital_counter.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_counter_map.ncd digital_counter.ngd digital_counter.pcf 
+par -w -intstyle ise -ol high -mt off digital_counter_map.ncd digital_counter.ncd digital_counter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_counter.twx digital_counter.ncd -o digital_counter.twr digital_counter.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Zahraa/Downloads/test.ucf -p xc7a100t-csg324-3 digital_counter.ngc digital_counter.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_counter_map.ncd digital_counter.ngd digital_counter.pcf 
+par -w -intstyle ise -ol high -mt off digital_counter_map.ncd digital_counter.ncd digital_counter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_counter.twx digital_counter.ncd -o digital_counter.twr digital_counter.pcf 
+bitgen -intstyle ise -f digital_counter.ut digital_counter.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Zahraa/Downloads/test.ucf -p xc7a100t-csg324-3 digital_counter.ngc digital_counter.ngd  

@@ -1,0 +1,326 @@
+Release 14.7 ngdbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -nt timestamp -uc C:/Users/Zahraa/Downloads/test.ucf -p
+xc7a100t-csg324-3 digital_counter.ngc digital_counter.ngd
+
+Reading NGO file "C:/Users/Zahraa/Documents/FPGA/h13/digital_counter.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"C:/Users/Zahraa/Downloads/test.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET "digit1<0>"   LOC = T10 |>
+   [C:/Users/Zahraa/Downloads/test.ucf(25)]: NET "digit1<0>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digit1<0>"   LOC = T10 |> [C:/Users/Zahraa/Downloads/test.ucf(25)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(25)]: NET "digit1<0>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digit1<1>"   LOC = R10 |>
+   [C:/Users/Zahraa/Downloads/test.ucf(26)]: NET "digit1<1>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digit1<1>"   LOC = R10 |> [C:/Users/Zahraa/Downloads/test.ucf(26)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(26)]: NET "digit1<1>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digit1<2>"   LOC = K16 |>
+   [C:/Users/Zahraa/Downloads/test.ucf(27)]: NET "digit1<2>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digit1<2>"   LOC = K16 |> [C:/Users/Zahraa/Downloads/test.ucf(27)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(27)]: NET "digit1<2>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digit1<3>"   LOC = K13 |>
+   [C:/Users/Zahraa/Downloads/test.ucf(28)]: NET "digit1<3>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digit1<3>"   LOC = K13 |> [C:/Users/Zahraa/Downloads/test.ucf(28)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(28)]: NET "digit1<3>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digit1<4>"   LOC = P15 |>
+   [C:/Users/Zahraa/Downloads/test.ucf(29)]: NET "digit1<4>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digit1<4>"   LOC = P15 |> [C:/Users/Zahraa/Downloads/test.ucf(29)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(29)]: NET "digit1<4>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digit1<5>"   LOC = T11 |>
+   [C:/Users/Zahraa/Downloads/test.ucf(30)]: NET "digit1<5>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digit1<5>"   LOC = T11 |> [C:/Users/Zahraa/Downloads/test.ucf(30)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(30)]: NET "digit1<5>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digit2<0>"   LOC = J17 |>
+   [C:/Users/Zahraa/Downloads/test.ucf(36)]: NET "digit2<0>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digit2<0>"   LOC = J17 |> [C:/Users/Zahraa/Downloads/test.ucf(36)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(36)]: NET "digit2<0>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digit2<1>"   LOC = J18 |>
+   [C:/Users/Zahraa/Downloads/test.ucf(37)]: NET "digit2<1>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digit2<1>"   LOC = J18 |> [C:/Users/Zahraa/Downloads/test.ucf(37)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(37)]: NET "digit2<1>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digit2<2>"   LOC = T9  |>
+   [C:/Users/Zahraa/Downloads/test.ucf(38)]: NET "digit2<2>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digit2<2>"   LOC = T9  |> [C:/Users/Zahraa/Downloads/test.ucf(38)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(38)]: NET "digit2<2>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digit2<3>"   LOC = J14 |>
+   [C:/Users/Zahraa/Downloads/test.ucf(39)]: NET "digit2<3>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digit2<3>"   LOC = J14 |> [C:/Users/Zahraa/Downloads/test.ucf(39)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(39)]: NET "digit2<3>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digit2<4>"   LOC = P14 |>
+   [C:/Users/Zahraa/Downloads/test.ucf(40)]: NET "digit2<4>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digit2<4>"   LOC = P14 |> [C:/Users/Zahraa/Downloads/test.ucf(40)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(40)]: NET "digit2<4>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digit2<5>"   LOC = T14 |>
+   [C:/Users/Zahraa/Downloads/test.ucf(41)]: NET "digit2<5>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digit2<5>"   LOC = T14 |> [C:/Users/Zahraa/Downloads/test.ucf(41)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(41)]: NET "digit2<5>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "floor<0>"     LOC = "H17" |>
+   [C:/Users/Zahraa/Downloads/test.ucf(50)]: NET "floor<0>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "floor<0>"     LOC = "H17" |> [C:/Users/Zahraa/Downloads/test.ucf(50)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(50)]: NET "floor<0>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "floor<1>"     LOC = "K15" |>
+   [C:/Users/Zahraa/Downloads/test.ucf(51)]: NET "floor<1>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "floor<1>"     LOC = "K15" |> [C:/Users/Zahraa/Downloads/test.ucf(51)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(51)]: NET "floor<1>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "floor<2>"     LOC = "J13" |>
+   [C:/Users/Zahraa/Downloads/test.ucf(52)]: NET "floor<2>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "floor<2>"     LOC = "J13" |> [C:/Users/Zahraa/Downloads/test.ucf(52)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(52)]: NET "floor<2>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "floor<3>"     LOC = "N14" |>
+   [C:/Users/Zahraa/Downloads/test.ucf(53)]: NET "floor<3>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "floor<3>"     LOC = "N14" |> [C:/Users/Zahraa/Downloads/test.ucf(53)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(53)]: NET "floor<3>" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "up_down"    LOC = "M18" |>
+   [C:/Users/Zahraa/Downloads/test.ucf(93)]: NET "up_down" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "up_down"    LOC = "M18" |> [C:/Users/Zahraa/Downloads/test.ucf(93)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(93)]: NET "up_down" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "stop"    LOC = "P18" |>
+   [C:/Users/Zahraa/Downloads/test.ucf(94)]: NET "stop" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "stop"    LOC = "P18" |> [C:/Users/Zahraa/Downloads/test.ucf(94)]'
+   could not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [C:/Users/Zahraa/Downloads/test.ucf(94)]: NET "stop" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    36
+  Number of warnings:  18
+
+Total memory usage is 160756 kilobytes
+
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "digital_counter.bld"...

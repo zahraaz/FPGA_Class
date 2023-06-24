@@ -1,0 +1,3 @@
+vhdl work "TLC.vhd"
+vhdl work "CLK_DIV.vhd"
+vhdl work "TCL_TOP_MODULE.vhd"

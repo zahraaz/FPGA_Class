@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/fourthExp/TCL_TOP_MODULE.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/fourthExp/TCL_TOP_MODULE.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim TCL_TOP_MODULE.ngc TLC_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Zahraa/Documents/FPGA/fourthExp/TCL_TOP_MODULE.xst" -ofn "C:/Users/Zahraa/Documents/FPGA/fourthExp/TCL_TOP_MODULE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Zahraa/Downloads/test.ucf -p xc7a100t-csg324-3 TCL_TOP_MODULE.ngc TCL_TOP_MODULE.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o TCL_TOP_MODULE_map.ncd TCL_TOP_MODULE.ngd TCL_TOP_MODULE.pcf 
+par -w -intstyle ise -ol high -mt off TCL_TOP_MODULE_map.ncd TCL_TOP_MODULE.ncd TCL_TOP_MODULE.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TCL_TOP_MODULE.twx TCL_TOP_MODULE.ncd -o TCL_TOP_MODULE.twr TCL_TOP_MODULE.pcf 
+bitgen -intstyle ise -f TCL_TOP_MODULE.ut TCL_TOP_MODULE.ncd 

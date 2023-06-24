@@ -1,0 +1,5 @@
+vhdl work "REG_FILE.vhd"
+vhdl work "RAM.vhd"
+vhdl work "MUX.vhd"
+vhdl work "ALU.vhd"
+vhdl work "TOP_MODULE.vhd"

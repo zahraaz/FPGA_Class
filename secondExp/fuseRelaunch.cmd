@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Zahraa/Documents/FPGA/secondExp/TTTT_isim_beh.exe" -prj "C:/Users/Zahraa/Documents/FPGA/secondExp/TTTT_beh.prj" "work.TTTT" 
